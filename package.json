@@ -1,0 +1,25 @@
+{
+  "name": "20210327-telegram_bots-heroku_bot",
+  "version": "1.0.0",
+  "description": "Heroku bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --inspect --watch index.js",
+    "server": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vstrelianyi/20210327-telegram_bots-heroku_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vstrelianyi/20210327-telegram_bots-heroku_bot/issues"
+  },
+  "homepage": "https://github.com/vstrelianyi/20210327-telegram_bots-heroku_bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^4.3.0"
+  }
+}
