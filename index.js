@@ -1,6 +1,6 @@
 require( 'dotenv' ).config(); // writes all key-value pairs from .env to process.env
 
-const Telegraf = require( 'telegraf' );
+const { Telegraf, } = require( 'telegraf' );
 
 const { BOT_TOKEN, } = process.env;
 
