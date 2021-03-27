@@ -11,3 +11,5 @@ https://protected-bastion-68058.herokuapp.com/
 
 
 https://protected-bastion-68058.herokuapp.com/bot1636218462:AAGoQrD9fG-SQDQ22ud2WrFXzagrcJqGN20
+
+heroku logs --tail

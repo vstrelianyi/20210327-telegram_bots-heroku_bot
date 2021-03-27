@@ -17,7 +17,7 @@ bot.command( 'env', ctx => {
 
 if ( process.env.NODE_ENV === 'production' ){
   bot.telegram.setWebhook( `${ URL }/bot${ BOT_TOKEN }` );
-  bot.startWebhook( `/bot${ BOT_TOKEN }`, null, 5000 );
+  bot.startWebhook( `/bot${ BOT_TOKEN }`, null, PORT );
   console.log( `Launched with webhook at ${ new Date() }` );
 }
 else {
