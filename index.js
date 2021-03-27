@@ -14,6 +14,7 @@ bot.hears( 'hi', ctx => ctx.reply( 'hey there' ) );
 
 bot.telegram.setWebhook( `${ URL }/bot${ BOT_TOKEN }` );
 bot.startWebhook( `/bot${ BOT_TOKEN }`, null, 5000 );
+console.log( `Launched with webhook at ${ new Date() }` );
 
 // bot.launch()
 //   .then( res => console.log( `Launched at ${ new Date() }` ) )
